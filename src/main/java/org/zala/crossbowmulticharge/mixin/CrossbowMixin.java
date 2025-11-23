@@ -214,16 +214,6 @@ public class CrossbowMixin extends RangedWeaponItem implements Vanishable {
         return list;
     }
 
-//    @Unique
-//    private static void clearProjectiles(ItemStack crossbow) {
-//        NbtCompound nbtCompound = crossbow.getNbt();
-//        if (nbtCompound != null) {
-//            NbtList nbtList = nbtCompound.getList("ChargedProjectiles", NbtElement.LIST_TYPE);
-//            nbtList.clear();
-//            nbtCompound.put("ChargedProjectiles", nbtList);
-//        }
-//    }
-
     @Unique
     private static void decProjectiles(ItemStack crossbow) {
         NbtCompound nbtCompound = crossbow.getNbt();
