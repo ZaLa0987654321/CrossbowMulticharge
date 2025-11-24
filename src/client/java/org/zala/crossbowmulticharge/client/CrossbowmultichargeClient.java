@@ -42,10 +42,10 @@ public class CrossbowmultichargeClient implements ClientModInitializer {
             int halfStorageSize = currentStorageSize / 2;
 
             if (item.getItem() instanceof CrossbowItem) {
-                for (int i = 0; i < currentStorageSize; i++) {
-                    context.drawTexture(ICONS, this.scaledWidth / 2 + (i-halfStorageSize)*8, this.scaledHeight / 2 + 24, 0, 0, 8, 8, 32, 8);
-                }
                 NbtList list = Objects.requireNonNull(item.getNbt()).getList("ChargedProjectiles", NbtElement.COMPOUND_TYPE);
+                for (int i = 0; i < currentStorageSize - list.size(); i++) {
+                    context.drawTexture(ICONS, this.scaledWidth / 2 + (halfStorageSize-i-1)*8, this.scaledHeight / 2 + 24, 0, 0, 8, 8, 32, 8);
+                }
                 for (int i = 0; i < list.size(); i++) {
                     if (ItemStack.fromNbt(list.getCompound(i)).isOf(Items.FIREWORK_ROCKET)) {
                         context.drawTexture(ICONS, this.scaledWidth / 2 + (i-halfStorageSize)*8, this.scaledHeight / 2 + 24, 16, 0, 8, 8, 32, 8);
