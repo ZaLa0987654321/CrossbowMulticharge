@@ -15,13 +15,13 @@ Crossbow without '*Storage*' enchantment have **6** slots
 
 With this mod in-game hud will *changed* — right under the crosshair the new bar will *show* you **currently charged arrows/fireworks**<br>
 
-<img width="1399" height="823" alt="Charged crossbow HUD" src="https://github.com/user-attachments/assets/04e17ff7-b955-4b29-b1ea-051ba0d7423b" />
+<img width="1352" height="841" alt="Crossbow HUD" src="https://github.com/user-attachments/assets/8130ca74-fcdb-48a8-8c1b-3c407b386a93" />
 
 > P.S. You can load arrows **and** fireworks into one crossbow.
 
 ## New enchantment
 This mod also adds a new enchantment called "*Storage*" It adds **4** new slots to the crossbow.<br>
 
-<img width="1466" height="771" alt="Enchanted Crossbow" src="https://github.com/user-attachments/assets/0838eb13-0d5b-4735-9d30-878da669fe32" />
+<img width="1390" height="798" alt="Enchanted Crossbow" src="https://github.com/user-attachments/assets/580efc74-0385-4393-92cf-b5df19d3ae95" />
 
 > Enchanted Crossbow
