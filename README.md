@@ -25,3 +25,7 @@ This mod also adds a new enchantment called "*Storage*" It adds **4** new slots 
 <img width="1390" height="798" alt="Enchanted Crossbow" src="https://github.com/user-attachments/assets/580efc74-0385-4393-92cf-b5df19d3ae95" />
 
 > Enchanted Crossbow
+
+
+## Note!
+This mod maybe not compatible with other mods that change crossbow (currently untested)
